@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #6a0dad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    color: white;
+  }
+
+  .btn:hover{
+    background-color: #56619c;
+    transition: ease;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background: #18474e;
+  }
+  
+  .hero img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8%;
+
+
+  }
+
+  .inscricao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+  }
+  
+  .inscricao input {
+    padding: 10px;
+    font-size: 1em;
+    width: 150%;
+    border: none;
+    border-radius: 5%;
+  }
+
+  .inscricao button{
+    width: 161%;
+    height: 30px;
+    border: none;
+    background-color: #26053d;
+    color: #ffffff;
+    border-radius: 5px;
+
+  }
+  
+  .sobre, .depoimentos, .cursos-carrossel {
+    padding: 40px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .cursos-carrossel .carrossel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    color: white;
+  }
+  
+  .curso {
+    min-width: 200px;
+    background-color: #3f51b5;
+    padding: 20px;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+  
+  footer {
+    background-color: #3f51b5;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+  }
+  
+  .coluna ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .curso-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .curso-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #56619c;
+    padding: 15px;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+
+  .imglogo{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+  }
+
+
+  .sobre {
+    padding: 20px;
+  }
+
+  .titulo-com-imagem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .titulo-com-imagem h2 {
+    margin: 0;
+  }
+  
+  .imagem-direita {
+    border-radius: 2px;
+    height: auto;
+    width: 50px;
+  }
+
+  .sobre p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .faleconosco{
+    block-size: 100px;
+    background-color: #26053d;
+    color: white;
+    height: 105px;
+    padding: 90px;
+  }
+
+  .midiassociais{
+    background-color: #18474e;
+    color: white;
+    height: 105px;
+    padding: 110px;
+    padding-top: 5%;
+  }
+
+  .instaface{
+    height: 100px;
+    width: 100px;
+  }
+
+  .falecons{
+    height: 60px;
+    width: 90px;  
+  }
